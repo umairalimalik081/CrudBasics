@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  background-color: grey;
+}
+.card {
+  height: 450px !important;
+}
+.card-heading {
+  color: grey;
+}
+#posts div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#options {
+  display: flex;
+  gap: 20px;
+}
+#options i {
+  cursor: pointer;
+}
+#errorMsg {
+  color: red;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: medium 10px;
+}
